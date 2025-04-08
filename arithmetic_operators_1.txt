@@ -37,4 +37,32 @@ arithmetic operators
 
 11) Write a Java program that takes the coordinates (x1, y1) and (x2, y2) of two points in a 2D plane as input (as doubles). Calculate and print the distance between the two points using the distance formula: √((x2 - x1)² + (y2 - y1)²). 
   Use Math.sqrt() and Math.pow().
+-----------------------------------------------String concatination--------------------------------------------------------------
 
+		System.out.println(20 - 10 + " value is " + (10 - 20));// 10 value is -10
+
+		System.out.println("hello " + -10);// hello -10
+
+		// System.out.println("hello "+*10); error
+
+		System.out.println(20 / 10 + " hello " + 20 % 10);// 2 hello 0
+
+		System.out.println(2.2 + " hello " + 2.2);// 2.2 hello 2.2
+
+		System.out.println("true or false? " + true); // true or false? true
+
+		System.out.println('A' + 1); // 66
+
+		System.out.println("A" + 1); // A1
+
+		System.out.println(2.5 + 2); // 4.5
+
+		System.out.println("Sum: " + (2.5 + 2)); // Sum: 4.5
+
+		System.out.println("Result: " + (10 * 2 % 4)); // Result: 0
+
+		// 10 * 2 = 20 → 20 % 4 = 0 → final string: "Result: 0"
+
+		System.out.println("Negative: " + -50); // Negative: -50
+
+		System.out.println("Hi " + 10 / 2 + " there!"); // Hi 5 there!
