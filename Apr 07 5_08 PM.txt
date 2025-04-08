@@ -1,0 +1,46 @@
+Okay, here are some programming questions on arithmetic and relational operators in Java, ranging in difficulty:
+
+Basic Arithmetic Operators:
+
+Simple Calculation: Write a Java program that declares two integer variables, num1 and num2, initializes them with values 15 and 7 respectively. Then, calculate and print their sum, difference, product, quotient, and remainder.
+
+Average Calculation: Write a Java program that takes three double variables (grade1, grade2, grade3) as input and calculates their average. Print the calculated average.
+
+Area of a Rectangle: Write a Java program that calculates the area of a rectangle. Declare two integer variables, length and width, initialize them, and then calculate and print the area.
+
+Temperature Conversion: Write a Java program to convert a temperature from Celsius to Fahrenheit. Declare a double variable celsius and initialize it. Use the formula Fahrenheit = (Celsius * 9/5) + 32 to calculate and print the Fahrenheit equivalent.
+
+Basic Relational Operators:
+
+Even or Odd: Write a Java program that takes an integer as input and prints whether it is "Even" or "Odd" using the modulo operator (%) and a relational operator.
+
+Positive, Negative, or Zero: Write a Java program that takes an integer as input and prints whether it is "Positive", "Negative", or "Zero" using relational operators.
+
+Comparing Two Numbers: Write a Java program that takes two integer inputs and prints whether the first number is greater than, less than, or equal to the second number.
+
+Checking for Equality: Write a Java program that declares two string variables and checks if they are equal using the appropriate relational operator (remember how to compare strings in Java!). Print "Strings are equal" or "Strings are not equal".
+
+Combining Arithmetic and Relational Operators:
+
+Divisible by Both: Write a Java program that takes an integer as input and checks if it is divisible by both 3 and 5. Print "Divisible by both" or "Not divisible by both".
+
+Within a Range: Write a Java program that takes an integer as input and checks if it falls within the range of 10 to 20 (inclusive). Print "Within range" or "Outside range".
+
+Leap Year Check (Simplified): Write a simplified Java program that takes a year as input and checks if it is a leap year based on the condition that it is divisible by 4. Print "Leap year" or "Not a leap year". (Note: This is a simplified version; the actual leap year rule is more complex).
+
+Discount Eligibility: Write a Java program that takes a customer's age as input. If the age is greater than 65, they are eligible for a 10% discount. Print "Eligible for discount" or "Not eligible for discount".
+
+More Challenging Questions:
+
+Quadratic Equation Roots: Write a Java program to find the nature of the roots of a quadratic equation (ax² + bx + c = 0). Take the coefficients a, b, and c as input. Calculate the discriminant (b² - 4ac) and print whether the roots are real and distinct, real and equal, or imaginary.
+
+Grade Calculation: Write a Java program that takes a student's score (out of 100) as input and assigns a grade based on the following conditions:
+
+90-100: A
+80-89: B
+70-79: C
+60-69: D
+Below 60: F Use a series of if-else if-else statements with relational operators to determine the grade.
+Unit Conversion with Conditions: Write a Java program that takes a temperature value and a unit ('C' for Celsius or 'F' for Fahrenheit) as input. Convert the temperature to the other unit and print the result. Use relational operators to check the input unit.
+
+These questions should give you a good practice with arithmetic and relational operators in Java. Remember to think about the logic and how to translate that logic into Java code using these operators. Good luck!

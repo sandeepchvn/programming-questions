@@ -1,0 +1,58 @@
+
+-------------------------------------------------------------Relational Operators----------------------------------------------------------------------
+
+1)Comparing Characters: Write a Java program that takes two character inputs and prints whether the first character comes before, after, or is the same as the second character in the ASCII table.
+
+2)Checking for Non-Equality: Write a Java program that takes two integer inputs and prints "Not equal" if they are different, and "Equal" otherwise. Use the != operator.
+
+3)Age Eligibility: Write a Java program that takes a person's age as input. Print "Eligible to vote" if the age is 18 or greater, and "Not eligible to vote" otherwise.
+
+4)Password Length Check: Write a Java program that takes a password (String) as input and checks if its length is greater than or equal to 8 characters. Print "Password is strong" or "Password is weak".
+
+5)Checking for Membership (Simple): Write a Java program that declares an integer variable number and checks if it is equal to any of the following values: 5, 10, or 15. Print "Number found" if it matches any of them, and "Number not found" otherwise (use multiple || - OR operators).
+
+-------------------------------------------Combining Relational Operators with Logical Operators---------------------------------------------------------
+
+1)Valid Score Range: Write a Java program that takes a student's score as input and checks if it is within the valid range of 0 to 100 (inclusive). Print "Valid score" or "Invalid score".
+
+2)Weekend Check: Write a Java program that takes a day of the week (as a String, e.g., "Monday", "Saturday") as input and checks if it's a weekend (Saturday or Sunday). Print "It's the weekend!" or "It's a weekday."
+
+3)Special Character Check: Write a Java program that takes a single character as input and checks if it is a special character (e.g., '!', '@', '#', '$', '%'). Use multiple || operators.
+
+4)Checking if a Number is Outside a Range: Write a Java program that takes an integer as input and checks if it is less than 10 or greater than 20. Print "Outside the range 10-20" or "Within the range 10-20".
+
+5)Login Authentication (Simple): Write a very basic Java program that has predefined username and password (String variables). It takes user input for username and password and checks if both match the predefined values. Print "Login successful" or "Login failed".
+
+------------------------------------------------------------------More Complex Scenarios---------------------------------------------------------------
+
+1)Comparing Floating-Point Numbers with Tolerance: Explain why directly comparing floating-point numbers (doubles or floats) for equality using == can be problematic. Then, write a Java program that takes two double numbers and a small tolerance value (e.g., 0.0001). Check if the absolute difference between the two numbers is less than the tolerance. Print "Approximately equal" or "Not approximately equal".
+
+2)Character Type Checking: Write a Java program that takes a single character as input and determines if it is an uppercase letter (A-Z), a lowercase letter (a-z), or a digit (0-9). Use relational operators to check the ASCII ranges.
+
+3)Triangle Inequality Theorem: Write a Java program that takes three positive integer inputs representing the lengths of the sides of a triangle. Use relational operators to check if the triangle inequality theorem holds (the sum of the lengths of any two sides must be greater than the length of the third side). Print "Valid triangle" or "Invalid triangle".
+
+4)Determining the Largest of Three Numbers: Write a Java program that takes three integer inputs and uses relational operators (and possibly logical operators) to find and print the largest of the three numbers without using built-in Math.max() function (you might need nested if statements).
+
+5)Checking for Palindrome (Single Character Case): Write a Java program that takes a single character as input and checks if it's a palindrome (a character that reads the same forwards and backward - which is always true for a single character). While trivial, this can introduce the concept for more complex palindrome checks later.
+
+6)These questions provide a more focused practice on relational operators and how they can be used in various decision-making scenarios in Java. Remember to consider different edge cases and how your conditions will evaluate.
+
+---------------------------------------------------------Arithmetic and Relational Operators---------------------------------------------------------------
+
+1)Divisible by Both: Write a Java program that takes an integer as input and checks if it is divisible by both 3 and 5. Print "Divisible by both" or "Not divisible by both".
+
+2)Within a Range: Write a Java program that takes an integer as input and checks if it falls within the range of 10 to 20 (inclusive). Print "Within range" or "Outside range".
+
+3)Discount Eligibility: Write a Java program that takes a customer's age as input. If the age is greater than 65, they are eligible for a 10% discount. Print "Eligible for discount" or "Not eligible for discount".
+
+4)Grade Calculation: Write a Java program that takes a student's score (out of 100) as input and assigns a grade based on the following conditions:
+
+	90-100: A
+	80-89: B
+	70-79: C
+	60-69: D
+	Below 60: F
+5)
+
+
+

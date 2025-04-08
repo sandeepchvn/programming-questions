@@ -1,0 +1,22 @@
+1) Write a Java program that takes the age and membership status of a customer as input. If the customer is either under 18 or has a membership, print "Eligible for discount", otherwise print "Not eligible for discount" using the || (OR) operator.
+2) Write a Java program that takes a person's age and citizenship status as input. If the person is at least 18 years old and is a citizen, print "Eligible to vote". If either condition is false, print "Not eligible to vote". Use the && (AND) operator.
+3) Write a Java program that takes an integer input and checks if the number is not a multiple of 3 using the ! (NOT) operator. Print "Not a multiple of 3" if true, or "Multiple of 3" if false.
+4) Write a Java program that takes an integer input and checks if the number is between 10 and 50, exclusive. 
+5)Write a Java program that checks if a year is a century year (i.e., a year that is divisible by 100). If the year is divisible by 100, print "Century Year", otherwise print "Not a Century Year".
+
+
+6)Write a Java program that takes a student's marks as input and checks if the student is eligible for a scholarship. A student is eligible if they have scored more than 85% and are in the top 10% of their class (use a variable classRank for class rank).
+Print "Eligible for Scholarship" if both conditions are true, otherwise print "Not Eligible for Scholarship".
+7) Write a Java program that takes a student's attendance percentage and exam score as input and checks if the student is eligible to pass the course. The student is eligible to pass if:
+
+	The attendance is at least 75%, and
+
+	The exam score is at least 50%. Print "Pass" if both conditions are met; otherwise, print "Fail".
+8)Write a Java program that checks if a number is divisible by both 5 and 7 using the && operator. Print "Divisible by both 5 and 7" if true, or "Not divisible by both" if false
+9) Write a Java program that checks if a person is eligible for a loan. The person must meet either of these conditions:
+
+	They have a salary of at least $40,000 and a good credit score (use two conditions combined with &&), or
+
+  They have a salary of at least $30,000 and have a co-signer (use || for the second condition). Print "Loan Approved" if they meet any of the conditions, otherwise print "Loan Denied".
+
+10)Write a Java program that takes a number as input and checks if the number is both positive and odd. Use logical operators to combine the conditions. Print "Positive and Odd" if true, otherwise print "Not Positive and Odd".
