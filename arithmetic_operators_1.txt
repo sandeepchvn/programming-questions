@@ -8,12 +8,13 @@ arithmetic operators
 
 3) Write a Java program that evaluates the following expression and prints the result: 10 + 5 * 3 - 18 / 2. Explain the order in which the operations are performed.
 
-16) Write a Java program that calculates the area of a rectangle. Declare two integer variables, length and width, initialize them, and then calculate and print the area.(πr²)
+16) Write a Java program that calculates the area of a rectangle. Declare two integer variables, length and width, initialize them, 
+ and then calculate and print the area(length * width).
 
 17)Write a Java program to convert a temperature from Celsius to Fahrenheit. Declare a double variable celsius and initialize it.
  Use the formula Fahrenheit = (Celsius * 9/5) + 32 to calculate and print the Fahrenheit equivalent.
 
-4) Write a Java program that takes the radius of a circle as input (as a double). Calculate and print the area (πr²) and the perimeter (2πr). Use π value as          3.14.
+4) Write a Java program that takes the radius of a circle as input (as a double). Calculate and print the area (πr²) and the perimeter (2πr). Use π value as            3.14.
 
 5) Write a Java program that takes five double inputs and calculates their average.
 
