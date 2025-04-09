@@ -1,23 +1,23 @@
-1) Write a Java program that takes two integer inputs and checks if the first number is greater than, less than, or equal to the second number. Print the result accordingly
+1) Write a Java program that takes two integer inputs and checks if the first number is greater than, less than, or equal to the second number. Print the result 	accordingly
 
 2) Write a Java program that takes an integer as input and checks whether it is divisible by 5. Print "Divisible by 5" if it is, or "Not divisible by 5" if it isn't.
 
 3) Write a Java program that takes the age of a person as input and checks if they are eligible to vote. (Voting age is 18 or above). Print "Eligible to vote" if they are, or "Not eligible to vote" otherwise.
 
-4) Write a Java program that takes three integer inputs and checks which number is the largest using relational operators. Print the largest number.
+4) Write a Java program that takes two integer inputs and checks which number is the largest using relational operators. Print the largest number.
 
 5) Write a Java program that takes an integer as input and checks if the number is even or odd. Print "Even" if it is, or "Odd" if it isn't.
 
 6) Write a Java program that takes a temperature in Celsius as input and checks if it is below freezing (0°C) or above. Print "Below freezing" or "Above freezing" accordingly.
 
-7) Write a Java program that takes two dates as input (in the format YYYY-MM-DD) and checks if the first date is earlier, later, or the same as the second date. Print the appropriate message.
-
 8) Write a Java program that takes an integer as input and checks if it lies within the range 1 to 100 (inclusive) using relational operators. Print "In range" if it is, or "Out of range" if it isn't.
-
-9) Write a Java program that takes an integer as input and checks if the number is positive, negative, or zero using relational operators. Print the appropriate message.
-
-10) Write a Java program that takes two double values as input and checks if they are equal (up to 2 decimal places). Print "Values are equal" or "Values are not equal".
 
 11) Write a Java program that checks if a given year is between 2000 and 2025 (inclusive). Print "Within range" if true, or "Out of range" if false.
 
+9) Write a Java program that takes an integer as input and checks if the number is positive, negative, or zero using relational operators. Print the appropriate message.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10) Write a Java program that takes two double values as input and checks if they are equal (up to 2 decimal places). Print "Values are equal" or "Values are not equal".
+
 12) Write a Java program that takes two floating point numbers as input and checks if the first is greater than, less than, or equal to the second. Print the appropriate comparison result.
+
+7) Write a Java program that takes two dates as input (in the format YYYY-MM-DD) and checks if the first date is earlier, later, or the same as the second date. Print the appropriate message.
