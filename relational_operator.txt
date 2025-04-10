@@ -10,13 +10,13 @@
 
 6) Write a Java program that takes a temperature in Celsius as input and checks if it is below freezing (0°C) or above. Print "Below freezing" or "Above freezing" accordingly.
 
-7) Write a Java program that takes an integer as input and checks if it lies within the range 1 to 100 (inclusive) using relational operators. Print "In range" if it is, or "Out of range" if it isn't.
+7) Write a Java program that takes an integer as input and checks if it lies within the range 1 to 100 (inclusive). Print "In range" if it is, or "Out of range" if it isn't.
 
 9) Write a Java program that takes an integer as input and checks if the number is positive, negative, or zero. Print the appropriate message.
 
 10) Write a Java program that takes two double values as input and checks if they are equal (up to 2 decimal places). Print "Values are equal" or "Values are not equal".
 
-11) Write a Java program that checks if a given year is between 2000 and 2025 (inclusive). Print "Within range" if true, or "Out of range" if false.
+11) Write a Java program that checks if a given year is between 2000 and 2025 (exclusive). Print "Within range" if true, or "Out of range" if false.
 
 12) Write a Java program that takes two floating point numbers as input and checks if the first is greater than, less than, or equal to the second. Print the appropriate comparison result.
 
