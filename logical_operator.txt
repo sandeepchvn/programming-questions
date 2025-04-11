@@ -1,3 +1,5 @@
+1)Write a Java program that takes two double values as input and checks if they are equal (up to 2 decimal places). Print "Values are equal" or "Values are not equal".
+
 1) Write a Java program that takes the age and membership status of a customer as input. If the customer is either under 18 or has a membership, print "Eligible for discount", otherwise print "Not eligible for discount".
 
 2) Write a Java program that takes a person's age and citizenship status as input. If the person is at least 18 years old and is a citizen, print "Eligible to vote". If either condition is false, print "Not eligible to vote".
