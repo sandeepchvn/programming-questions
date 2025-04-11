@@ -3,12 +3,6 @@
 
 1)Comparing Characters: Write a Java program that takes two character inputs and prints whether the first character comes before, after, or is the same as the second character in the ASCII table.
 
-2)Checking for Non-Equality: Write a Java program that takes two integer inputs and prints "Not equal" if they are different, and "Equal" otherwise. Use the != operator.
-
-3)Age Eligibility: Write a Java program that takes a person's age as input. Print "Eligible to vote" if the age is 18 or greater, and "Not eligible to vote" otherwise.
-
-4)Password Length Check: Write a Java program that takes a password (String) as input and checks if its length is greater than or equal to 8 characters. Print "Password is strong" or "Password is weak".
-
 5)Checking for Membership (Simple): Write a Java program that declares an integer variable number and checks if it is equal to any of the following values: 5, 10, or 15. Print "Number found" if it matches any of them, and "Number not found" otherwise (use multiple || - OR operators).
 
 -------------------------------------------Combining Relational Operators with Logical Operators---------------------------------------------------------
@@ -52,7 +46,9 @@
 	70-79: C
 	60-69: D
 	Below 60: F
-5)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+4)Password Length Check: Write a Java program that takes a password (String) as input and checks if its length is greater than or equal to 8 characters. Print "Password is strong" or "Password is weak".
+
 
 
 
