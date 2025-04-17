@@ -13,7 +13,100 @@
 12)Write a Java program to print whether the user-entered integer is a digit or a number using the conditional operator.
 13)Write a Java program to read an alphabet from the user and print whether the alphabet is uppercase or lowercase.
 
+---------------------------------------------------------while loop--------------------------------------------------------------
 
+>>>>>>>Basic While Loop Questions<<<<<<<<
+
+1)Print numbers from 1 to 10 using a while loop.
+
+2)Print all even numbers between 1 and 50 using a while loop.
+
+3)Print the sum of the first n natural numbers.
+(Read n from the user)
+
+4)Print the multiplication table of a number entered by the user (e.g., table of 5).
+
+5)Print the digits of a number in reverse order.
+(e.g., input = 123, output = 3 2 1)
+
+>>>>>>Intermediate While Loop Questions<<<<<<<<
+
+1)Count the number of digits in a given number.
+
+2)Check if a number is a palindrome.
+     (e.g., 121, 1221 → Palindrome; 123 → Not a palindrome)
+
+3)Check if a number is an Armstrong number.
+     (e.g., 153 = 1³ + 5³ + 3³)
+
+4)Find the factorial of a number using a while loop.
+
+5)Find the sum of digits of a number.
+
+>>>>>>>Challenging While Loop Questions<<<<<<<<
+
+1)Print Fibonacci series up to n terms using a while loop.
+
+2)Find the Greatest Common Divisor (GCD) of two numbers using a while loop.
+
+3)Print all prime numbers between 1 and n using a while loop.
+
+4)Read numbers continuously until the user enters 0. Then print the sum of all entered numbers.
+
+5)Simulate a simple number guessing game using a while loop.
+    (Keep asking the user to guess until they get the correct number)
+
+--------------------------------------------------------- do-while loop--------------------------------------------------------------
+
+1)Write a program that uses a do-while loop to print numbers from 1 to 100.
+
+2)Write a program to keep asking the user to enter numbers. Add them all until the user enters 0, then print the total sum.
+
+3)Write a program to keep asking the user to enter positive numbers. If a negative number is entered, show an error and ask again. Stop the loop when the user enters 0.
+
+4)Write a program that keeps asking the user to enter the correct password using a do-while loop. Exit the loop only when the correct password (e.g., "admin123") is entered.
+
+5)Write a program to reverse the digits of a number using a do-while loop. Example: input = 1234 → output = 4321.
+
+6)Write a menu-driven program using a do-while loop with the following options:
+
+	Add
+
+	Subtract
+
+	Exit
+
+Perform the operation based on user input and keep showing the menu until the user selects Exit.
+
+7)Write a program to keep accepting numbers from the user and count how many are even and how many are odd. Stop when the user enters 0, then display the counts.
+
+8)Write a program that asks the user to enter a number and uses a do-while loop to calculate the factorial of that number.
+
+9)Write a number guessing game using a do-while loop. The program should keep asking the user to guess a number until they guess the correct one.
+
+10)Write a program to generate the multiplication table of a given number using a do-while loop (up to 10).
+
+----------------------------------------------------------------for loop-----------------------------------------------------------------------
+
+1)Write a program to print numbers from 1 to 100 using a for loop.
+
+2)Write a program to print even numbers from 1 to 50 using a for loop.
+
+3)Write a program to print the multiplication table of a given number using a for loop.
+
+4)Write a program to find the factorial of a number using a for loop.
+
+5)Write a program to find the sum of all numbers from 1 to N using a for loop.
+
+6)Write a program to count and print how many numbers between 1 to 100 are divisible by 5 using a for loop.
+
+7)Write a program to print all the digits of a given number using a for loop.
+
+8)Write a program to reverse a number using a for loop.
+
+9)Write a program to check if a number is a prime number using a for loop.
+
+10)Write a program to print the Fibonacci series up to N terms using a for loop.
 
 
 
