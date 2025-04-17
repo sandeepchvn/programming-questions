@@ -1,0 +1,19 @@
+1)Write a Java program to read the marks of 4 subjects of a student and print the result as either Pass or Fail.
+2)Write a Java program to read the month number from the user and print how many days it contains.
+3)Write a Java program to print 3 different integer values in ascending order.
+4)Write a Java program to check whether the user-entered year is a leap year or not.
+5)Write a Java program to read 4 subject marks from the user and print the result as Distinction, First Class, Second Class, or Fail.
+6)Write a Java program to read the amount from the user and print it in the Indian currency dimension.
+7)Write a Java program to print user-entered date is valid or invalid.
+8)Write a Java program to read a character from the user and print whether the character is an alphabet, digit, or special character.
+------------------------
+9)Write a Java program to read the month number from the user and print the corresponding month name.
+10)Write a Java program to read the day number from the user and print the corresponding day name.
+11)Write a Java program to read the day number from the user and print whether it is valid or not.
+12)Write a Java program to print whether the user-entered integer is a digit or a number using the conditional operator.
+13)Write a Java program to read an alphabet from the user and print whether the alphabet is uppercase or lowercase.
+
+
+
+
+
