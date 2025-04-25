@@ -24,6 +24,10 @@
 3)Print the sum of the first n natural numbers.
 (Read n from the user)
 
+6)Write a Java program to print odd numbers from a given range.
+
+7)Write a Java program that calculates and prints the sum of odd and even numbers in a given range
+
 4)Print the multiplication table of a number entered by the user (e.g., table of 5).
 
 5)Print the digits of a number in reverse order.
@@ -107,6 +111,18 @@ Perform the operation based on user input and keep showing the menu until the us
 9)Write a program to check if a number is a prime number using a for loop.
 
 10)Write a program to print the Fibonacci series up to N terms using a for loop.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 
+1) define a method to return how many divisors present for the number
+
+2) define a method to find Perfect number (9, 28)
+
+3) define a method to find prime number
+
+4) define a method to return average of digits in the number
+
+5) define a method to return "best" if sum of even digits is equal to sum of odd digits otherwise return "worst"
+
+6) define a method to return "good" number of even digits is equal number of odd digits otherwise return "bad"
 
 
