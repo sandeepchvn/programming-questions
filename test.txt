@@ -1,0 +1,16 @@
+
+1) Write a program to swap two numbers without using a third variable.
+
+2) Write a program to determine whether the input is a single digit or a number (more than one digit).
+
+3) Write a program to check whether a given character is an alphabet, a digit, or a special character.
+
+4) Write a program to find the greatest and smallest digit in a number.
+
+5) Define a method to return the sum of the digits of a number.
+
+6) Define a method to find whether a number is a perfect number.
+
+7) Define a method to return "good" if the count of even digits is equal to the count of odd digits; otherwise, return "false".
+
+8) Define a method to return how many divisors are present for a user-given number.
