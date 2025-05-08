@@ -14,3 +14,34 @@
 7) Define a method to return "good" if the count of even digits is equal to the count of odd digits; otherwise, return "false".
 
 8) Define a method to return how many divisors are present for a user-given number.
+
+------assignmet-------
+
+
+1) Evil number 
+
+	
+Buzz number 
+Spy number
+Neon number
+Harshad number
+Duck Number
+GCD 
+LCM(a*b/gcd)
+Check if a number is a Fibonacci number
+-----------
+Find square root 
+automorphic
+Tech number 
+
+-------------------test--------------------------
+
+1) write a program to find Armstrong number(153,1634).
+2) write a program to print prime numbers from 1 to user given range.
+3) define a method to convert decimal to binary number.
+4) define a method to convert binary to decimal.
+5) define a find xylem and phloem number.
+6) define a method to find perfect number.
+
+
+
