@@ -124,5 +124,11 @@ Perform the operation based on user input and keep showing the menu until the us
 5) define a method to return "best" if sum of even digits is equal to sum of odd digits otherwise return "worst"
 
 6) define a method to return "good" number of even digits is equal number of odd digits otherwise return "bad"
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
+1)A number N is a sunny number if N + 1 is a perfect square.(8,24)
+2)Automorphic Number (5,76,6,25)
+3)Tech number(81,2025)
+4)Strontio Number(1386,1221)
+5)square root
 
