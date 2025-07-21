@@ -1,0 +1,100 @@
+#### ***Feature	Description of LinkedList***
+
+
+
+**Dynamic size			Grows/shrinks automatically**
+
+Allows duplicates		✅ Yes
+
+Maintains insertion order	✅ Yes
+
+Allows null elements		✅ Yes
+
+Thread-safe			❌ No (not synchronized)
+
+Backed by			Doubly linked list
+
+
+
+---------------------------------------------------------------
+
+
+
+#### ***🔄 Differences: ArrayList vs LinkedList*** 
+
+
+
+**Feature			ArrayList			LinkedList**
+
+Initial capacity	10 (by default)			❌ No concept
+
+Backed by		Dynamic array			Doubly linked list
+
+Random access		✅ Fast (O(1))			❌ Slow (O(n))
+
+Insert/Delete middle	❌ Slow (O(n))			✅ Fast (O(1) if node known)
+
+Memory usage		Less (contiguous array)		More (extra pointers)
+
+
+
+----------------------------------------------------------------
+
+#### **✅ Vector vs ArrayList (Simple Comparison)**
+
+
+
+Feature			Vector			ArrayList
+
+Thread-safe		✅ Yes (synchronized)	❌ No (not synchronized)
+
+Initial Capacity	10			10
+
+Capacity Increase	Doubles (×2) when full	Increases by 50% (×1.5)
+
+Performance		Slower (due to sync)	Faster
+
+Used Today?		Rare (legacy)		Common (recommended)
+
+Introduced In		JDK 1.0			JDK 1.2
+
+
+
+----------------------------------------------------------------
+
+#### **✅ What is Stack in Java?**
+
+Stack is a class in Java that represents a Last-In-First-Out (LIFO) data structure.
+
+
+
+🧠 LIFO = Last item added is the first to be removed.
+
+
+
+	**📌 Common Stack Methods**
+
+	Method			Description
+
+	push(E item)		Adds (pushes) an item on top
+
+	pop()			Removes and returns top item
+
+	peek()			Returns (but doesn't remove) top item
+
+	empty()			Checks if the stack is empty
+
+	search(Object o)	Finds position of item from top (1-based)
+
+
+
+----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
