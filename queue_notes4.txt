@@ -1,0 +1,84 @@
+✅ 1. Queue (Interface)
+🔹 Definition:
+Queue is a FIFO (First-In-First-Out) data structure.
+
+Defined in the java.util package.
+
+
+
+🔑 Key Methods:
+Method			Description
+add(e)			Inserts element; throws exception if fails
+offer(e)		Inserts element; returns false if fails
+remove()		Removes and returns head; exception if empty
+poll()			Removes and returns head; null if empty
+element()		Returns head without removing; exception if empty
+peek()			Returns head without removing; null if empty
+
+
+
+✅ 2. PriorityQueue (Class)
+🔹 Definition:
+A queue where elements are ordered based on priority (natural or custom).
+
+It does not maintain insertion order.
+
+
+🔍 Behavior:
+The smallest/largest element (based on comparator) is always at the head.
+
+⚠️ Notes:
+
+Null elements are not allowed
+
+Not thread-safe
+
+✅ Use Case: Job Scheduling, Dijkstra’s Algorithm, Tasks with different priorities
+
+🧪 Example:
+Queue<Integer> pq = new PriorityQueue<>();
+pq.add(30);
+pq.add(10);
+pq.add(20);
+
+System.out.println(pq.poll()); // Output: 10
+
+✅ 3. ArrayDeque (Class)
+🔹 Definition:
+A double-ended queue: allows insert/remove from both ends.
+
+No capacity restrictions; grows as needed.
+
+Faster than Stack and LinkedList for stack/queue operations.
+
+🔑 Key Methods:
+Method			Description
+addFirst(e)		Adds element at front
+addLast(e)		Adds element at end
+pollFirst()		Removes from front
+pollLast()		Removes from end
+peekFirst()		Returns front
+peekLast()		Returns end
+
+✅ Use Case: Implement stack and queue, Undo/Redo, Sliding window algorithms
+
+🧪 Example:
+java
+Copy
+Edit
+ArrayDeque<String> deque = new ArrayDeque<>();
+deque.add("A");
+deque.addFirst("B");
+deque.addLast("C");
+
+System.out.println(deque); // Output: [B, A, C]
+
+🔄 4. Summary Comparison
+Feature			Queue		PriorityQueue			ArrayDeque
+
+Order			FIFO		Sorted (min by default)		Insertion (Deque order)
+Null Allowed		Depends		❌ No				❌ No
+Allows Duplicates	✅ Yes		✅ Yes				✅ Yes
+Thread-safe		❌ No		❌ No				❌ No
+Allows Insertion End	Rear only	Rear only			Front & Rear
+Allows Removal End	Front only	Front only			Front & Rear
