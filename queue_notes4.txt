@@ -28,6 +28,7 @@ It does not maintain insertion order.
 The smallest/largest element (based on comparator) is always at the head.
 
 ⚠️ Notes:
+Initial capacity is 11
 
 Null elements are not allowed
 
@@ -46,6 +47,9 @@ System.out.println(pq.poll()); // Output: 10
 ✅ 3. ArrayDeque (Class)
 🔹 Definition:
 A double-ended queue: allows insert/remove from both ends.
+
+Initial capacity is 16 (default).
+
 
 No capacity restrictions; grows as needed.
 
@@ -82,3 +86,62 @@ Allows Duplicates	✅ Yes		✅ Yes				✅ Yes
 Thread-safe		❌ No		❌ No				❌ No
 Allows Insertion End	Rear only	Rear only			Front & Rear
 Allows Removal End	Front only	Front only			Front & Rear
+-----------------------------------------------------------------------------------
+
+✅ PriorityQueue
+Purpose: Elements are ordered based on priority (natural ordering or a custom Comparator).
+
+Ordering: Not FIFO – the smallest (or highest priority) element comes out first.
+
+Nulls Allowed: ❌ No
+
+Duplicates: ✅ Yes
+
+Heterogenous: ✅ Yes
+
+Default capacity: 11
+
+Resizable: ✅ Yes, grows automatically
+
+---------Constructor---------
+1)PriorityQueue()
+2)PriorityQueue(Comparator)
+3)PriorityQueue(Collection)
+4)PriorityQueue(initialCapacity)
+___________________________________________
+ArrayDeque<Integer> dq = new ArrayDeque<>();
+dq.add(10);
+dq.add(20);
+dq.addFirst(5);
+System.out.println(dq.poll()); // Output: 5 (FIFO)
+
+
+------------------------------------------------------------------------------------
+
+✅ ArrayDeque
+Purpose: Resizable double-ended queue → can add/remove from both ends.
+
+Ordering: FIFO (like Queue) or LIFO (like Stack) – depending on how you use it.
+
+Nulls Allowed: ❌ No
+
+Duplicates: ✅ Yes
+
+Heterogenous: ✅ Yes
+
+Default capacity: 16
+
+Resizable: ✅ Yes, doubles when needed
+
+---------Constructor---------
+1)ArrayDeque()
+2)ArrayDeque(Collection)
+3)ArrayDeque(initialCapacity)
+
+Usage: Fast stack/queue operations without capacity restrictions.
+____________________________________________
+ArrayDeque<Integer> dq = new ArrayDeque<>();
+dq.add(10);
+dq.add(20);
+dq.addFirst(5);
+System.out.println(dq.poll()); // Output: 5 (FIFO)
